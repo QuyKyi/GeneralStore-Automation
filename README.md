@@ -37,56 +37,61 @@ git clone https://github.com/QuyKyi/mobile_automation_python_GeneralStore.git
 
 ```
 2. **Setup:**
-   2.1 Python Intepreter
+   
+   2.1 **Python Intepreter**
 
    <img width="982" alt="Screen Shot 2024-02-18 at 8 07 09 AM" src="https://github.com/QuyKyi/GeneralStore-Automation/assets/7692721/2c0f9d10-a42e-431b-99f8-b8470fa9f1a2">
 
-   
-   2.2 Updating Your Environment Variables
+   2.2 **Updating Your Environment Variables**
    
    ```
-# Setting PATH for Python 3.12
-# The original version is saved in .zprofile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"
-export PATH
-export PATH=/usr/local/bin:$PATH
-export PATH=/usr/local/bin:$PATH
-export ANDROID_HOME=/Users/quy.kyi/Library/Android/sdk
-export PATH="$JAVA_HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$PATH:/Users/quy.kyi/Library/Android/sdk/tools/bin"
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
-export PATH=$PATH:$JAVA_HOME/bin
-export PATH=$PATH:$JAVA_HOME/lib
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/build-tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/tools/lib/x86_64
-# Setting PATH for Python 3.11
-# The original version is saved in .zprofile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:${PATH}"
-export PATH
-```
-3. **Run Allure Report**
+      # Setting PATH for Python 3.12
+      # The original version is saved in .zprofile.pysave
+      PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"
+      export PATH
+      export PATH=/usr/local/bin:$PATH
+      export PATH=/usr/local/bin:$PATH
+      export ANDROID_HOME=/Users/quy.kyi/Library/Android/sdk
+      export PATH="$JAVA_HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$PATH:/Users/quy.kyi/Library/Android/sdk/tools/bin"
+      export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
+      export PATH=$PATH:$JAVA_HOME/bin
+      export PATH=$PATH:$JAVA_HOME/lib
+      export PATH=$PATH:$ANDROID_HOME/emulator
+      export PATH=$PATH:$ANDROID_HOME/platform-tools
+      export PATH=$PATH:$ANDROID_HOME/tools
+      export PATH=$PATH:$ANDROID_HOME/build-tools
+      export PATH=$PATH:$ANDROID_HOME/tools/bin
+      export PATH=$PATH:$ANDROID_HOME/tools/lib/x86_64
+      # Setting PATH for Python 3.11
+      # The original version is saved in .zprofile.pysave
+      PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:${PATH}"
+      export PATH
+   ```
 
-## Run Allure Report
+3. **Run Allure Report:**
 
 Ensure you are in the project directory before running these commands.
-
 Generate the Allure report by executing the following command:
 
-```bash
-pytest --alluredir="/Users/quy.kyi/Documents/GitHub/mobile_automation_python_GeneralStore/allureReport"
+```
+   pytest --alluredir="/Users/quy.kyi/Documents/GitHub/mobile_automation_python_GeneralStore/allureReport"
+
+```
 
 Once the tests have completed and the Allure results are generated, you can serve the Allure report locally using:
 
-allure serve /Users/quy.kyi/Documents/GitHub/mobile_automation_python_GeneralStore/allureReport
+```
+   allure serve /Users/quy.kyi/Documents/GitHub/mobile_automation_python_GeneralStore/allureReport
+
+```
 
 This will start a local web server and open the generated Allure report in your default web browser.
+
 ### Notes:
 - Replace `/Users/quy.kyi/Documents/GitHub/mobile_automation_python_GeneralStore/allureReport` with the actual path to your Allure report directory if it differs.
 - Ensure that Allure is installed on your machine. If Allure is not installed, you can typically install it via package managers like `brew` for macOS (`brew install allure`) or by following the installation instructions on the [Allure Framework website](https://docs.qameta.io/allure/).
 - This instruction assumes that the user has `pytest` and `allure-pytest` already set up in their environment. If not, you might want to include steps for setting up these prerequisites as well.
 
-By using the triple backticks and specifying `bash` as the language, GitHub's Markdown renderer will not only format the text as a code block but also apply Bash syntax highlighting, making the commands clearer and easier to read.
+<img width="1437" alt="Screen Shot 2024-02-18 at 8 48 50 AM" src="https://github.com/QuyKyi/GeneralStore-Automation/assets/7692721/d1105693-af4c-422b-90a9-31fd76a1df8d">
+<img width="1630" alt="Screen Shot 2024-02-18 at 8 49 57 AM" src="https://github.com/QuyKyi/GeneralStore-Automation/assets/7692721/47d0f80c-a73a-4bf5-9542-00ae8b737817">
 

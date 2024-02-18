@@ -1,0 +1,14 @@
+[Deprecated] 'TouchAction' action is deprecated. Please use W3C actions instead.
+[Deprecated] 'TouchAction' action is deprecated. Please use W3C actions instead.
+[Deprecated] 'TouchAction' action is deprecated. Please use W3C actions instead.
+[Deprecated] 'TouchAction' action is deprecated. Please use W3C actions instead.
+[Deprecated] 'TouchAction' action is deprecated. Please use W3C actions instead.
+[Deprecated] 'TouchAction' action is deprecated. Please use W3C actions instead.
+[Deprecated] 'TouchAction' action is deprecated. Please use W3C actions instead.
+[Deprecated] 'TouchAction' action is deprecated. Please use W3C actions instead.
+[Deprecated] 'TouchAction' action is deprecated. Please use W3C actions instead.
+[Deprecated] 'TouchAction' action is deprecated. Please use W3C actions instead.
+[Deprecated] 'TouchAction' action is deprecated. Please use W3C actions instead.
+[Deprecated] 'TouchAction' action is deprecated. Please use W3C actions instead.
+[Deprecated] 'TouchAction' action is deprecated. Please use W3C actions instead.
+[Deprecated] 'TouchAction' action is deprecated. Please use W3C actions instead.

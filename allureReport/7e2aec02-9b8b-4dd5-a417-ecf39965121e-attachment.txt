@@ -1,0 +1,18 @@
+[32mINFO    [0m TestCases.BaseTest:BaseTest.py:28 Start test new testcase-----> test_003_checkout
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:57 [self] 💋 verifyTextview: txtview_navigation_bar, "Cart"
+
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:106 ---> The text is: Cart
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:112 ---> Expected is: Cart
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:57 [self] getText: txtview_total_price
+
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:106 ---> The text is: $ 226.97
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:57 [self] 👇 click: checkbox_sendemail
+
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:57 [self] 👇 click: btn_visit_website_to_complete_purchase
+
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:57 [self] ️✍️ input: txtfield_google,"General Store"
+
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:214 ---> Click on Back Physical device
+[32mINFO    [0m TestCases.conftest:conftest.py:47 ----check these steps above---
+[32mINFO    [0m TestCases.conftest:conftest.py:58 [RESULT - PASSED]
+[32mINFO    [0m TestCases.conftest:conftest.py:60 <-----End of testcase

@@ -1,0 +1,15 @@
+[32mINFO    [0m TestCases.BaseTest:BaseTest.py:17 -------------------------------------------------
+[32mINFO    [0m TestCases.BaseTest:BaseTest.py:18 ------------Start test new feature---------------
+[32mINFO    [0m TestCases.BaseTest:BaseTest.py:19 -------------------------------------------------
+[32mINFO    [0m TestCases.BaseTest:BaseTest.py:28 Start test new testcase-----> test_001_homescreen_select_India_and_let_shop
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:57 [self] 👇 click: drop_down_list_country
+
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:145 ---> Clicked on text
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:57 [self] ️✍️ input: textfield_name,customer_name
+
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:57 [self] 👇 click: radio_gender_female
+
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:57 [self] 👇 click: btn_let_shop
+[32mINFO    [0m TestCases.conftest:conftest.py:47 ----check these steps above---
+[32mINFO    [0m TestCases.conftest:conftest.py:58 [RESULT - PASSED]
+[32mINFO    [0m TestCases.conftest:conftest.py:60 <-----End of testcase

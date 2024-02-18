@@ -1,0 +1,2 @@
+[32mINFO    [0m TestCases.conftest:conftest.py:40 [DRIVER] --> Quit
+[32mINFO    [0m TestCases.BaseTest:BaseTest.py:23 ---End test feature---

@@ -1,0 +1,14 @@
+[32mINFO    [0m TestCases.BaseTest:BaseTest.py:28 Start test new testcase-----> test_002_menuscreen_add_items_to_cart
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:57 [self] 💋 verifyTextview: txtview_navigation_bar, "Products"
+
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:106 ---> The text is: Products
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:112 ---> Expected is: Products
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:57 ["//android] click_on_xpath: widget
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:57 ["//android] click_on_xpath: widget
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:57 [self] getText: txtview_item_on_cart
+
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:106 ---> The text is: 2
+[32mINFO    [0m Page_Actions.BasePage:BasePage.py:57 [self] 👇 click: icon_cart
+[32mINFO    [0m TestCases.conftest:conftest.py:47 ----check these steps above---
+[32mINFO    [0m TestCases.conftest:conftest.py:58 [RESULT - PASSED]
+[32mINFO    [0m TestCases.conftest:conftest.py:60 <-----End of testcase

@@ -95,3 +95,10 @@ This will start a local web server and open the generated Allure report in your 
 <img width="1437" alt="Screen Shot 2024-02-18 at 8 48 50 AM" src="https://github.com/QuyKyi/GeneralStore-Automation/assets/7692721/d1105693-af4c-422b-90a9-31fd76a1df8d">
 <img width="1630" alt="Screen Shot 2024-02-18 at 8 49 57 AM" src="https://github.com/QuyKyi/GeneralStore-Automation/assets/7692721/47d0f80c-a73a-4bf5-9542-00ae8b737817">
 
+4. **Run without Allure Report:**
+   Ensure you are in the project directory before running these commands.
+   ```
+   pytest /Users/quy.kyi/Downloads/mobile_automation_python_GeneralStore/TestCases/Android/GeneralStore/test_checkout_demo.py
+   ```
+   ### Notes:
+   - Replace `/Users/quy.kyi/Downloads/` with the actual path to your Allure report directory if it differs.

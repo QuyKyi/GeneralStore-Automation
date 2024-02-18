@@ -99,8 +99,8 @@ This will start a local web server and open the generated Allure report in your 
 4. **Run without Allure Report:**
    Ensure you are in the project directory before running these commands.
    ```
-   pytest /path/to/test_script.py
+   pytest /path/to/test_checkout_demo.py
 
    ```
    ### Notes:
-   - Replace `/path/to/test_script.py` with the actual path to your test script if it differs.
+   - Replace `/path/to/test_checkout_demo.py` with the actual path to your test script if it differs.

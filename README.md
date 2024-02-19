@@ -15,7 +15,7 @@ The project is organized into several key directories and files:
 - **TestCases**: Includes Python scripts or modules defining individual test cases, containing logic for executing specific test scenarios against the mobile application.
 - **Utilities**: Collection of utility scripts providing common functionalities that support test scripts, such as logging, data parsing, or environment setup.
 - **requirements.txt**: Lists Python packages required for the project, facilitating easy installation via pip.
-
+- **.idea**: A directory related to JetBrains' IntelliJ IDEA or PyCharm IDEs, containing project-specific settings and preferences. This directory is generally not included in version control as it pertains to personal development environment settings.
 
 ## Prerequisites
 
